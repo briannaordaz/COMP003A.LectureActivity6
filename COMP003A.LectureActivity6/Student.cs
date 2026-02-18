@@ -1,10 +1,23 @@
 namespace COMP003A.LectureActivity6;
-
-class Program
+using System;
+public class Student
 {
-    static void Main()
-    {
+   
         
-    }
+        public string Name;
+        public int Age;
+
+        public Student(string name, int age)
+        {
+                Name = name;
+                Age = age;
+        }
+
+        public void DisplayInfo()
+        {
+                Console.WriteLine($"Student Name: {Name} \n Student Age: {Age}");
+               
+        }
+
 }
 
