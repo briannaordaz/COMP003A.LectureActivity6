@@ -18,6 +18,11 @@ public class Program
     student1.DisplayInfo();
     
     
+    student.Age = 19;
+    
+    student.DisplayInfo();
+    
+    
     }
     
     
@@ -31,3 +36,18 @@ public class Program
 }
 
 
+
+/*
+    Why does each Student object have its own data?
+   
+   
+   
+    Why does Main not need to know how DisplayInfo works?
+   
+   
+   
+    How does this activity demonstrate encapsulation conceptually?
+    
+    
+    
+*/
