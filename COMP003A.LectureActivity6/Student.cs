@@ -15,7 +15,7 @@ public class Student
 
         public void DisplayInfo()
         {
-                Console.WriteLine($"Student Name: {Name} \n Student Age: {Age}");
+                Console.WriteLine($" Name: {Name}, Age: {Age}");
                
         }
 
