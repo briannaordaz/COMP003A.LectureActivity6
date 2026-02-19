@@ -18,7 +18,7 @@ public class Program
     student1.DisplayInfo();
     
     
-    student.Age = 19;
+    student.Age = 19; //modified Age
     
     student.DisplayInfo();
     
@@ -38,16 +38,16 @@ public class Program
 
 
 /*
-    Why does each Student object have its own data?
-   
-   
-   
-    Why does Main not need to know how DisplayInfo works?
-   
-   
-   
-    How does this activity demonstrate encapsulation conceptually?
-    
-    
+      Why does each Student object have its own data?
+        
+             Each Student object has its own data because each object has its own unique values stored in the memory.
+        
+         Why does Main not need to know how DisplayInfo works?
+        
+             Main does not need to know how DisplayInfo works because the implementation details are in the DisplayInfo method already, so the Main method only needs to call the DisplayInfo() method.
+        
+         How does this activity demonstrate encapsulation conceptually?
+         
+             This acti  vity demonstrates encapsulation by showing how to hide the implementaion details and only being able access it through method invocation
     
 */
